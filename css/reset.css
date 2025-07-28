@@ -80,7 +80,6 @@ a{
 	height: 10vh;
 	width: 100%;
 	background-color: var(--ford-escuro);
-	
 }
 .redes-sociais{
 	display: flex;
@@ -120,7 +119,6 @@ a{
 	
 }
 .imagem-main{
-	display: flex;
 	width: 80%;
 	height: 90%;
 }
@@ -146,10 +144,9 @@ a{
 	width: 50%;	
 }
 .imagem-contato{
-	display: flex;
-	margin-top: 10%;
+	margin-top: 4%;
 	height: 30%;
-	width: 50%;
+	
 }
 /* ============== Fim da Imagem ============== */
 /* Classes do Formulario */
@@ -162,13 +159,34 @@ a{
 	display: flex;
 	flex-direction: column;
 	margin-top: 5%;
-	height: 5%;
+	height: 100%;
 	width: 40%;
 }
 .dado-formulario{
-	display: flex;
-	border-radius: 10px;
-	height: 100%;
-	width: 100%;
+	border-radius: 7px;
+	border-color: rgba(128, 128, 128, 0.377);
+	margin-bottom: 3%;
+	padding-left: 8%;
+	height: 2.813rem;	/* 45px */
+	width: 20rem; 		/* 320px */
+}
+.tipo-contato{
+	border-radius: 7px;
+	border-color: rgba(128, 128, 128, 0.377);
+	height: 2.813rem;	/* 45px */
+	width: 21.75rem; 		/* 348px */
+	margin-bottom: 3%;
+}
+.botao-formulario{
+	margin-left: 8.688rem;	/* 139px */
+	border-radius: 7px;
+	border-color: transparent;
+	height: 2.813rem;
+	width: 13.125rem;
+	color: white;
+	background-color: var(--ford-claro);
+}
+.botao-formulario:hover{
+	background-color: var(--ford-escuro);
 }
 /* =============== Fim do Formulario =============== */
