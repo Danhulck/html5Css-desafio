@@ -124,3 +124,52 @@ a{
 	width: 80%;
 	height: 90%;
 }
+
+
+
+
+
+
+
+
+/* Contato Main */
+/* Classes da Imagem */
+.contato{
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+.Imagem{
+	display: flex;
+	justify-content: flex-end;
+	height: 100%;
+	width: 50%;	
+}
+.imagem-contato{
+	display: flex;
+	margin-top: 15%;
+	height: 30%;
+	width: 50%;
+}
+/* ============== Fim da Imagem ============== */
+/* Classes do Formulario */
+.formulario{
+	display: flex;
+	height: 100%;
+	width: 50%;
+}
+.formulario-dados{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+	gap: 5%;
+	height: 5%;
+	width: 40%;
+}
+.dado-formulario{
+	display: flex;
+	border-radius: 10px;
+	height: 100%;
+	width: 100%;
+}
+/* =============== Fim do Formulario =============== */
