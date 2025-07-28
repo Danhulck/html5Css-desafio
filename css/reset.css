@@ -1,0 +1,107 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* Variável de cores */
+:root{
+	--ford-claro: #1351d8;
+	--ford-escuro: #1b357e;
+}
+/* ============ Fim variável de cores ============ */
+/* Minhas Tags */
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	display: grid;
+	min-height: 100dvh;
+	flex-direction: column;
+}
+header{
+	display: flex;  
+	border-bottom: 1px solid #757679b4;
+	box-shadow: 0 0 2px 0;
+	font-family: "Ubuntu", sans-serif;
+  	font-weight: 600;
+	font-size: larger;
+  	font-style: normal
+}
+main{
+	display: flex;
+	height: 80vh;
+	width: 100%;
+}
+footer{
+	display: flex;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 400;
+	font-style: normal
+}
+a{
+	text-decoration: none;
+}
+/* ==================== Fim Tags ==================== */
+
+/* Minhas classes */
+
+/* Classes Header e Footer */
+/* Topo */
+.topo{
+	display: flex;
+	align-items: center;
+	height: 10vh;
+	width: 100%;
+}
+.logo-principal{
+	display: flex;
+	margin-left: 3%;
+	height: 80%;
+}
+.navegacao{
+	display: flex;
+	justify-content: center;
+	margin-left: 25%;
+	gap: 7%;
+}
+.nav-link{
+	display: flex;
+	color: var(--ford-claro);
+}
+/* ================== Fim Topo ================== */
+/* Footer */
+.baixo{
+	display: flex;
+	height: 10vh;
+	width: 100%;
+	background-color: var(--ford-escuro);
+	justify-content: space-between;
+}
+/* ================== Fim Footer ================== */
+/* === Fim Classe Header e Footer === */
+
+/* Index main */
+.index{
+	display: flex;
+}
+.redes-sociais{
+	display: flex;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+	gap: 1%
+}
+.texto-sociais{
+	color: white;
+	margin-left: 3%;
+}
+.logos-sociais{
+	display: flex;
+	gap: 5px;
+}
+.imagem-sociais{
+	display: flex;
+	width: 20px;
+	height: 20px;
+}
