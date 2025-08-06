@@ -122,14 +122,22 @@ a{
 	width: 80%;
 	height: 90%;
 }
+/* =============== Fim Index Main =============== */
+/* Lançamento Main */
+.lancamento{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	
+}
 
 
 
 
-
-
-
-
+/* =============== Fim Lamçamento Main =============== */
 /* Contato Main */
 /* Classes da Imagem */
 .contato{
